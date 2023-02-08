@@ -4,6 +4,7 @@
 - José Marcos
 - Kelvin Argolo
 - Lucas Mendes
+- Luís Guilherme
 - Vinícius Assis
 
 <h2>Professor:</h2>

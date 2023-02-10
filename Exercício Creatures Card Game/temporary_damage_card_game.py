@@ -10,4 +10,5 @@ class TemporaryDamageCardGame(CardGame):
         print('=' * 15, 'TEMPORARY DAMAGE HIT', '='*15)
         print(f'{attacker.name} causou {attacker.attack} de dano...\n')
         print(f"{defender.name}'s HP: {defender.health}")
-        defender.health = self.last_health
+        if(defender.health > 0):
+            defender.health = self.last_health
